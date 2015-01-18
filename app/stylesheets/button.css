@@ -1,0 +1,84 @@
+/*doc
+---
+title: このスタイルシートについて
+name: 0-button-outline
+category: button
+---
+
+このスタイルシートでは、ボタンのスタイルを指定しています。
+
+*/
+
+
+
+/*doc
+---
+title: デフォルトのボタン
+name: 1-button-default
+category: button
+---
+
+デフォルトのボタンのスタイルです。
+
+class 属性に ```.button``` とつけると、ボタンになります。
+
+```example
+<button class="button">Default</button>
+```
+
+*/
+.button {
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  height: 48px;
+  padding: 0 24px;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  line-height: 48px;
+  background-color: #607d8b;
+  border: 0;
+  border-radius: 3px;
+  outline: 0;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 0.66;
+}
+
+
+
+/*doc
+---
+title: さまざまなボタン
+name: 2-button-variations
+category: button
+---
+
+さまざまなボタンのスタイルです。
+
+```.button``` 要素に、さらに用途別の class を追加することで色が変わります。
+
+目的別に色が違うので使い分けてください。
+
+```example
+<button class="button button-primary">Primary</button>
+<button class="button button-success">Success</button>
+<button class="button button-warning">Warning</button>
+<button class="button button-danger">Danger</button>
+```
+
+*/
+.button.button-primary {
+  background-color: #2169f3;
+}
+.button.button-success {
+  background-color: #4caf50;
+}
+.button.button-warning {
+  background-color: #ff9800;
+}
+.button.button-danger {
+  background-color: #f44336;
+}

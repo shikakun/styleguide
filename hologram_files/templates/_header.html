@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%= @config['styleguide_name'] %><% if title %> · <%= title %><% end %></title>
+    <link rel="stylesheet" href="../app/stylesheets/button.css">
+    <link rel="stylesheet" href="./css/styleguide.css">
+  </head>
+  <body>
+    <header class="styleguide_header">
+      <h1 class="styleguide_brand">
+        <%= @config['styleguide_name'] %>
+      </h1>
+      <nav class="styleguide_nav">
+        <ul class="styleguide_nav--lists">
+          <% @categories.each do |category| %>
+            <li class="styleguide_nav--list">
+              <a href="<%= category[1] %>"><%= category[0] %></a>
+            </li>
+          <% end %>
+        </ul>
+      </nav>
+    </header>
+    <article class="styleguide_article">
+      <% if title %>
+        <h1>
+          <%= title %>
+        </h1>
+        <ul>
+          <% @blocks.each do |block| %>
+            <li><a href="#<%= block[:name] %>"><%= block[:title] %></a></li>
+          <% end %>
+        </ul>
+      <% end %>
+      <div class="styleguide_content">
