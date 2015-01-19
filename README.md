@@ -44,7 +44,7 @@ Hologram を実行すると、```app``` ディレクトリと同じ階層に ```
 
 さきほど生成したスタイルガイドでは例としてボタンのスタイルシートについて説明していますが、この説明がどこに書かれているのかというと、ボタンのスタイルシートが書いてある CSS ファイルにコメントとして書かれています。
 
-```app/stylesheets/button.css``` には、以下のように書いてあります。
+[```app/stylesheets/button.css```](https://github.com/shikakun/styleguide/blob/master/app/stylesheets/button.css) には、以下のように書いてあります。
 
 ```css
 /*doc
@@ -74,7 +74,7 @@ category: button
 
 ## Hologram をカスタマイズする
 
-スタイルガイド自体のテンプレートは ```hologram_files/template``` ディレクトリに入っていて、ヘッダーとフッターのマークアップや、スタイルガイド自体のスタイルシートを編集できるようになっています。目の前の仕事から逃避したいときや、土日に予定がなさすぎてつらいときとかにプロジェクトに合ったおしゃれなデザインをしてみるのも一興です。
+スタイルガイド自体のテンプレートは [```hologram_files/templates```](https://github.com/shikakun/styleguide/tree/master/hologram_files/templates) ディレクトリに入っていて、ヘッダーとフッターのマークアップや、スタイルガイド自体のスタイルシートを編集できるようになっています。目の前の仕事から逃避したいときや、土日に予定がなさすぎてつらいときとかにプロジェクトに合ったおしゃれなデザインをしてみるのも一興です。
 
 そんな暇ないよ！って人は、モダンな Hologram のテンプレートを作って公開してる人もいるので、そのまま使うなりディレクトリ構成を参考にするなりしてみたらいかがでしょうか。
 
@@ -90,7 +90,7 @@ category: button
   <p>このサンプルプロジェクトの Hologram は、実は Markdown をパースするところもカスタマイズしています。</p>
   <pre>```example<br><button class="button">ボタン</button><br>```</pre>
   <p>というように書くと、実際にボタンとして html を表示してコードも併記できるようにしています。<br>
-  詳しくは <code>hologram_files/markdown_renderer.rb</code> を参照ください。<br>
+  詳しくは <a href="https://github.com/shikakun/styleguide/blob/master/hologram_files/markdown_renderer.rb"><code>hologram_files/markdown_renderer.rb</code></a> を参照ください。<br>
   Hologram はカスタマイズ性が高いので、自分の好きなように表示できてめっちゃ楽しい。</p>
 </blockquote>
 
