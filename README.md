@@ -36,7 +36,7 @@ Hologram を実行すると、```app``` ディレクトリと同じ階層に ```
 
 ```button.html``` をウェブブラウザで開いてみましょう。
 
-![image](https://cloud.githubusercontent.com/assets/1396953/5792622/23ba5500-9f65-11e4-9af7-76f1c7392891.png)
+![image](https://cloud.githubusercontent.com/assets/1396953/5794732/56020e3c-9fbe-11e4-9a5a-c6868f86cdf2.png)
 
 スタイルガイドができてるぞ!!
 
